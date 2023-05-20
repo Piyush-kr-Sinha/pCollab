@@ -1,0 +1,31 @@
+# Task no. 1
+
+React state problems :
+
+1. **Counter Component**: Create a counter component that displays a number and buttons to increment and decrement the value. Use React state to manage the counter value.
+2. **Todo List**: Build a todo list component that allows users to add, edit, and delete tasks. Use React state to store and manage the list of tasks.
+3. **Toggle Component**: Develop a toggle component that displays an "ON" or "OFF" state. Clicking on the component should toggle the state between "ON" and "OFF" using React state.
+4. **Color Picker**: Create a color picker component with a set of predefined colors. When a color is clicked, it should be displayed and stored using React state.
+5. **Dropdown Menu**: Implement a dropdown menu component that shows a list of options. When an option is selected, it should be displayed in the dropdown and stored in React state.
+6. **Image Gallery**: Build an image gallery component that displays a grid of images. Clicking on an image should enlarge it. Use React state to manage the selected image and its visibility.
+7. **Form Validation**: Develop a form component that accepts user input and validates the form fields. Display error messages for invalid fields using React state.
+
+( note make it simple without focusing much on styling , implementation of component is priority )
+
+
+
+
+# Task - 2
+
+JS async ( theory )
+
+1. **What is asynchronous programming in JavaScript?**: Explain what asynchronous programming means in the context of JavaScript and why it is important for handling time-consuming tasks or operations.
+2. **What is the difference between synchronous and asynchronous code execution?**: Describe the difference between synchronous and asynchronous code execution in JavaScript and how they impact the flow of the program.
+3. **What is the event loop in JavaScript?**: Explain the concept of the event loop in JavaScript, including how it manages the execution of asynchronous code and maintains the responsiveness of the application.
+4. **What are callbacks in JavaScript?**: Discuss the concept of callbacks in JavaScript and how they are used to handle asynchronous operations by passing functions as arguments.
+5. **What are promises in JavaScript?**: Describe what promises are in JavaScript and how they provide a more structured and manageable way to handle asynchronous operations compared to callbacks.
+6. **What is the purpose of async/await in JavaScript?**: Explain how async/await was introduced in JavaScript to simplify asynchronous code and make it look more like synchronous code, providing a more readable and intuitive syntax.
+7. **What are the benefits and drawbacks of using asynchronous programming in JavaScript?**: Discuss the advantages and disadvantages of asynchronous programming in JavaScript, including improved performance, responsiveness, and potential challenges like callback hell or error handling.
+8. **How can you handle errors in asynchronous JavaScript code?**: Explain different error handling techniques for asynchronous code, such as using try/catch blocks with async/await or using .catch() method with promises.
+9. **What are the common patterns for controlling the flow of asynchronous operations?**: Discuss common patterns like callbacks, promises, async/await, and chaining multiple asynchronous operations to control the flow of asynchronous code.
+10. **What are some common pitfalls to avoid in asynchronous JavaScript programming?**: Explain some common mistakes or pitfalls to be aware of when working with asynchronous code, such as improper error handling, race conditions, or not handling callback hell situations.

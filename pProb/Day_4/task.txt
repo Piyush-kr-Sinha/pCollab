@@ -1,0 +1,51 @@
+# Day-4
+
+# **Task 1**
+
+Coding questions
+
+[Check if array is sorted | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?page=3&difficulty[]=0&category[]=Data%20Structures&sortBy=submissions)
+
+[Union of Two Sorted Arrays | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?page=3&difficulty[]=0&category[]=Data%20Structures&sortBy=submissions)
+
+# **Task 2**
+
+### Make a chrome extension by your own
+
+reference video :-
+
+[https://youtu.be/coj-l7IrwGU](https://youtu.be/coj-l7IrwGU)
+
+# **Task 3**
+
+### JS Api works
+
+1. What is an API, and how does it relate to JavaScript?
+2. What are the differences between the Web API and the JavaScript API?
+3. How do you make an HTTP request using JavaScript? What are the available methods for making requests?
+4. What is the Fetch API in JavaScript, and how does it differ from XMLHttpRequest?
+5. Explain the concept of Promises and how they are used in JavaScript APIs.
+6. How do you handle errors and exceptions in JavaScript APIs?
+7. What is the Document Object Model (DOM) API, and how does it enable interaction with HTML documents?
+8. What are some commonly used DOM manipulation methods in JavaScript?
+9. How do you retrieve and manipulate data from JSON APIs using JavaScript?
+10. How can you use JavaScript APIs to access and manipulate browser history and modify the URL?
+11. What is the Geolocation API, and how can it be used to obtain a user's location information?
+12. How do you work with JavaScript APIs that deal with audio and video, such as the Web Audio API or the MediaStream API?
+
+# **Task 4**
+
+## React Lifecycle and Lifecycle Methods
+
+1. What are the different phases of the React component lifecycle?
+2. What is the purpose of the `componentDidMount` lifecycle method?
+3. How can you update the state of a component during the lifecycle?
+4. Explain the difference between `componentWillReceiveProps` and `componentDidUpdate` methods.
+5. What is the significance of the `shouldComponentUpdate` method?
+6. How can you prevent unnecessary re-rendering of a component?
+7. What is the purpose of the `componentWillUnmount` method?
+8. How does the introduction of hooks affect the React component lifecycle?
+9. Explain the usage of the `useEffect` hook in managing side effects.
+10. How do you handle asynchronous operations within a React component lifecycle?
+11. Can you provide an example scenario where you would use the `componentDidCatch` method?
+12. What is the recommended approach for handling component lifecycle methods in functional components?

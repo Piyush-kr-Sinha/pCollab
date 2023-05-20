@@ -1,0 +1,55 @@
+<!-- 1. Create a grid layout with 3 columns and 2 rows. Place different elements (e.g., images, text, buttons) in each cell
+of the grid.
+
+2. Create a grid layout with 4 equal-sized columns and 3 rows. Adjust the size of the grid items to fill the available
+space evenly.
+
+
+-->
+
+<!-- Html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grd">
+        <img src="https://cdn.pixabay.com/photo/2016/11/05/16/54/lord-shiva-1800672_640.jpg" alt="">
+        <h3>Har Har Mahadev</h3>
+        <button>Button</button>
+        <img src="https://cdn.pixabay.com/photo/2016/11/05/16/54/lord-shiva-1800672_640.jpg" alt="">
+        <h3>Har Har Mahadev</h3>
+        <button>Button</button>
+    </div>
+</body>
+</html>
+
+<!-- css -->
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.grd{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: 255px 255px;
+justify-content: space-between;
+align-items: center;
+border: 2px solid black;
+padding: 5px;
+}
+img{
+width: 250px;
+}
+button{
+width: 90px;
+height: 50px;
+} -->

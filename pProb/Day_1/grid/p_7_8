@@ -1,0 +1,331 @@
+<!-- 8. Build a form layout using CSS Grid. Arrange form elements (input fields, checkboxes, labels, etc.) in a grid structure, making it visually appealing and responsive.
+    
+    7. Create a grid-based navigation menu with dropdown submenus. Use grid areas to position and style the menu items and submenus.
+ -->
+
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- main container -->
+    <div class="cont">
+        <!-- Title container div -->
+        <div class="title">
+            <h2>Form</h2>
+        </div>
+        <!-- form container div or details div -->
+        <form class="details">
+            <!-- single detail div -->
+            <div class="detail">
+                <!-- detailTag -->
+                <div class="detailTag">Name</div>
+                <!-- data div -->
+                <div class="detailData"> <input type="text" placeholder="enter name"></div>
+            </div>
+            <div class="detail">
+                <div class="detailTag">
+                    User Name
+                </div>
+                <div class="detailData"> <input type="text" placeholder="enter user name">
+                </div>
+            </div>
+            <div class="detail">
+                <div class="detailTag">Age
+                </div>
+                <div class="detailData"> <input type="number" placeholder="enter age">
+                </div>
+            </div>
+            <div class="detail">
+                <div class="detailTag">Email</div>
+                <div class="detailData"> <input type="email" placeholder="enter email">
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="detailTag">
+                    Phone
+                </div>
+                <div class="detailData"> <input type="tel" placeholder="enter phone number">
+                </div>
+            </div>
+            <div class="detail">
+                <div class="detailTag">Address</div>
+                <input type="text" placeholder="enter address">
+
+                <div class="detailData">
+                </div>
+            </div>
+        </form>
+
+        <!-- choose div -->
+        <div class="choose">
+            <div class="gender">
+                <div class="genderTitle">
+                    Gender
+                </div>
+                <div class="option1">
+                    <div><input type="radio">
+                        <span>Male</span>
+                    </div>
+                    <div> <input type="radio">
+                        <span>Female</span>
+                    </div>
+                    <div> <input type="radio">
+                        <span>Not Prefer To Say</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facility">
+                <div class="facilityTitle">
+                    Facility
+                </div>
+                <div class="option2">
+                    <div><input type="checkbox">
+                        <span>ATM</span>
+                    </div>
+                    <div> <input type="checkbox">
+                        <span>Cheque Book</span>
+                    </div>
+                    <div> <input type="checkbox">
+                        <span>Mobile Banking</span>
+                    </div>
+                    <div> <input type="checkbox">
+                        <span>Internet Banking</span>
+                    </div>
+                    <div> <input type="checkbox">
+                        <span>SMS Alert</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="consent">
+                <div class="consentTitle">
+                    Consent
+                </div>
+                <div class="dropdownContent">
+                    <input type="checkbox"><span>
+                        All information are correct from my side and you take legal action if, I am wrong.
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- submit div -->
+        <div class="submit">
+            <button>Submit</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+
+
+
+<!-- css -->
+* {
+margin: 0;
+padding: 0;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+background-color: rgb(225, 216, 234);
+}
+.cont {
+background: linear-gradient(to left, #33f5ff 0%, #608de7 100%);
+max-width: 900px;
+height: 60vh;
+padding: 15px;
+border: 1px solid antiquewhite;
+border-radius: 18px;
+display: grid;
+grid-template-columns: auto;
+}
+.title {
+display: flex;
+margin-left: 25px;
+color: rgb(93, 88, 88);
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 20px;
+}
+.details {
+display: grid;
+grid-template-columns: auto auto;
+width: 100%;
+justify-content: space-between;
+}
+.detail {
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-between;
+margin: 8px;
+}
+.detailTag {
+font-weight: bold;
+font-family: "Times New Roman", Times, serif;
+margin-right: 55px;
+}
+input {
+font-size: 18px;
+text-align: center;
+}
+.choose {
+display: grid;
+grid-template-columns: auto;
+}
+.gender {
+display: flex;
+margin: 10px;
+font-weight: bold;
+}
+.option1 {
+margin-left: 15px;
+
+display: flex;
+justify-content: space-between;
+}
+.facility {
+display: flex;
+margin: 10px;
+font-weight: bold;
+}
+.option2 {
+margin-left: 15px;
+
+display: flex;
+justify-content: space-between;
+}
+.consent {
+display: flex;
+margin: 10px;
+font-weight: bold;
+
+}
+.dropdownContent {
+display: none;
+position: absolute;
+background: linear-gradient(to left, #33f5ff 0%, #608de7 100%);
+padding: 5px;
+margin-top: 18px;
+}
+.consent:hover .dropdownContent {
+display: flex;
+justify-content: center;
+color: red;
+}
+.submit {
+display: flex;
+justify-content: center;
+margin-top: 15px;
+height: 25px;
+padding: 15px;
+}
+span {
+margin-right: 18px;
+}
+button {
+font-size: large;
+color: rgb(202, 98, 98);
+background-color: rgb(213, 240, 173);
+font-weight: bold;
+padding: 3px;
+}
+
+/* responsive */
+@media only screen and (max-width: 750px) {
+.cont{
+height: 85vh;
+width: 75vw;
+}
+.title {
+display: flex;
+font-size: 15px;
+color: red;
+}
+.details {
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+text-align: center;
+}
+.detail {
+display: grid;
+grid-template-columns: auto;
+margin: 3px;
+}
+.detailTag {
+font-weight: bold;
+
+}
+input {
+font-size: 15px;
+text-align: center;
+}
+.gender {
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+font-weight: bold;
+margin: 3px;
+}
+.option1 {
+display: grid;
+justify-content: center;
+font-weight: lighter;
+}
+.facility {
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+font-weight: bold;
+margin: 3px;
+
+}
+.option2 {
+display: grid;
+justify-content: center;
+font-weight: lighter;
+}
+.consent {
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+font-weight: bold;
+margin: 3px;
+}
+.consent:hover .dropdownContent {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 75%;
+}
+button {
+font-size: 12px;
+padding: 2px;
+color: rgb(0, 0, 0);
+background-color: rgb(125, 226, 228);
+font-weight: 18px;
+height: 18px;
+margin-top: 25px;
+}
+
+}

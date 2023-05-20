@@ -1,0 +1,113 @@
+<!-- 3. Implement a responsive grid layout where the number of columns changes based on the screen size. For example, have 3
+columns for large screens, 2 columns for medium screens, and 1 column for small screens. 
+5. Build a grid-based photo gallery where each photo is displayed in a grid cell. Experiment with different grid configurations and responsive behavior.
+
+6. Design a responsive card layout using CSS Grid. Each card should have a consistent width and height, and the layout should adapt based on the available space.
+-->
+
+<!-- html -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="grd">
+        <div class="grid-item"><img src="https://cdn.pixabay.com/photo/2016/11/05/16/54/lord-shiva-1800672_640.jpg" alt=""></div>
+        
+        <div class="grid-item"><h3>Har Har Mahadev</h3></div>
+        
+        <div class="grid-item"><button>Button</button></div>
+        
+        <div class="grid-item"><img src="https://cdn.pixabay.com/photo/2016/11/05/16/54/lord-shiva-1800672_640.jpg" alt=""></div>
+        
+        <div class="grid-item"><h3>Har Har Mahadev</h3></div>
+        
+        <div class="grid-item"><button>Button</button></div>
+        
+    </div>
+</body>
+</html>
+ -->
+
+
+ <!-- css -->
+<!-- * {
+margin: 0;
+padding: 0;
+}
+body {
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.grd {
+max-width: 900px;
+display: grid;
+width: 65vw;
+height: 75vh;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+justify-content: space-around;
+align-items: center;
+border: 5px solid black;
+}
+.grid-item {
+border: 3px solid red;
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+/* align-items: center; */
+padding: 10px;
+}
+img {
+width: 15vw;
+height: 20vh;
+}
+button {
+width: 15vw;
+height: 5vh;
+}
+
+@media only screen and (max-width: 500px) {
+.grd {
+width: 75vw;
+height: 85vh;
+display: grid;
+grid-template-columns: auto;
+/* grid-template-rows: 25px; */
+justify-content: space-evenly;
+align-items: center;
+border: 2px solid black;
+}
+.grid-item {
+border: 1px solid red;
+width: 60vw;
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+/* align-items: center; */
+padding: 2px;
+margin: 1px;
+}
+img {
+width: 55vw;
+height: 20vh;
+}
+button {
+width: 50vw;
+height: 5vh;
+}
+}
+
+@media only screen and (501px <= width <=750px) { .grd { width: 75vw; height: 85vh; display: grid;
+    grid-template-columns: auto auto; /* grid-template-rows: 25px; */ justify-content: space-around; align-items:
+    center; border: 5px solid black; } img { width: 25vw; height: 20vh; } button { width: 25vw; height: 5vh; }
+ -->

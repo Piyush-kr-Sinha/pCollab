@@ -1,0 +1,105 @@
+### 1.React Props
+
+**Questions**
+
+1. What are props in React and what is their purpose?
+2. How do you pass props from a parent component to a child component?
+3. Can you explain the difference between props and state in React?
+4. How do you access props inside a functional component in React?
+5. Can you provide an example of how to pass and use props in a React component?
+6. Is it possible to change the value of props directly inside a child component? Why or why not?
+7. How can you set default values for props in a React component?
+8. Can you explain how to pass a function as a prop to a child component and how to use it?
+9. What are the benefits of using props to pass data between components instead of relying on a shared global state?
+10. Can you describe a scenario where you would need to update props in a component, and how would you achieve that?
+
+**Problems** 
+
+Problem 1:
+Create a parent component that renders multiple child components. Pass a unique prop value to each child component, and have each child component display the received prop value.
+
+Problem 2:
+Create a button component that accepts a prop for the button label. On clicking the button, display an alert message with the label value.
+
+Problem 3:
+Build a list component that receives an array of items as a prop. Render each item as a list item within an unordered list.
+
+Problem 4:
+Implement a toggle component that has a button and a text display. Initially, the text display should be hidden. On clicking the button, toggle the visibility of the text display.
+
+Problem 5:
+Create a form component that accepts props for input fields (e.g., name, email). Display the input fields with appropriate labels, and when the form is submitted, display an alert with the entered values.
+
+Problem 6:
+Develop a component that displays a counter. Pass an initial count value as a prop and provide buttons to increment and decrement the count. Display the updated count value on the screen.
+
+Problem 7:
+Build a component that fetches data from an API and renders a list of items. Pass the fetched data as a prop to a child component responsible for rendering each item.
+
+Problem 8:
+Create a dropdown component that receives an array of options as a prop. Render the dropdown with the options, and when an option is selected, display an alert with the selected value.
+
+Problem 9:
+Implement a component that receives a prop representing a color and displays a colored box on the screen using the received color value.
+
+Problem 10:
+Build a component that receives a prop representing a user's name. Display a personalized greeting message using the received name.
+
+### 2. Js Objects
+
+**Questions**
+
+1. What is an object in JavaScript, and how is it different from other data types?
+2. How do you create an object literal in JavaScript?
+3. What are properties and methods in an object, and how do you access them?
+4. Can you explain the concept of "this" keyword in JavaScript objects?
+5. What is object destructuring, and how can it be used to access object properties?
+6. How do you add or modify properties in an existing JavaScript object?
+7. What is the difference between dot notation and bracket notation when accessing object properties?
+8. Can you explain the concept of prototypes in JavaScript objects?
+9. How do you loop through the properties of an object using a for...in loop?
+10. What are some common methods available for working with objects, such as Object.keys(), Object.values(), and Object.entries()?
+
+**Problems** 
+
+Problem 1:
+Create an object representing a car with properties like make, model, and year. Write a function that takes the car object as an argument and displays the car's details.
+
+Problem 2:
+Create an object representing a student with properties like name, age, and grade. Write a function that takes the student object as an argument and checks if the student is eligible for graduation based on their grade.
+
+Problem 3:
+Create an object representing a shopping cart with properties like items and total. Write functions to add items to the cart, remove items from the cart, and calculate the total price of the items in the cart.
+
+Problem 4:
+Create an object representing a bank account with properties like account number and balance. Write functions to deposit money into the account, withdraw money from the account, and display the account balance.
+
+Problem 5:
+Create an object representing a recipe with properties like name, ingredients, and instructions. Write a function that takes the recipe object as an argument and displays the recipe details, including the list of ingredients and step-by-step instructions.
+
+Problem 6:
+Create an object representing a movie with properties like title, genre, and rating. Write a function that takes an array of movie objects and filters the movies based on a given genre.
+
+Problem 7:
+Create an object representing a playlist with properties like name and songs. Write functions to add songs to the playlist, remove songs from the playlist, and display the list of songs in the playlist.
+
+Problem 8:
+Create an object representing a user with properties like name, email, and age. Write a function that takes a user object as an argument and checks if the user is an adult based on their age.
+
+Problem 9:
+Create an object representing a restaurant with properties like name, menu, and ratings. Write a function that takes a restaurant object as an argument and displays the restaurant details, including the menu items and average rating.
+
+Problem 10:
+Create an object representing a calendar with properties like events and dates. Write functions to add events to the calendar, remove events from the calendar, and display the list of events on a specific date.
+
+### 3. HTML Forms
+
+Make a responsive registration form ( src. youtube - codingLab registration from video)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a986d540-2652-4e58-a898-ffd6faf24a25/Untitled.jpeg)
+
+### 4. DSA Problems
+
+A. [Missing Number in Array](https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category[]=Data%20Structures&sortBy=submissions)
+
+B. L[eaders in Array](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&difficulty[]=0&category[]=Data%20Structures&sortBy=submissions)

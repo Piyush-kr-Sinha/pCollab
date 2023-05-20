@@ -1,0 +1,53 @@
+Task - 1
+
+React Props cont.
+
+Task - 2
+
+JS objects cont.
+
+Task - 3
+
+CSS grid 
+
+1. Create a grid layout with 4 equal-sized columns and 3 rows. Adjust the size of the grid items to fill the available space evenly.
+2. Create a grid layout with 3 columns and 2 rows. Place different elements (e.g., images, text, buttons) in each cell of the grid.
+3. Implement a responsive grid layout where the number of columns changes based on the screen size. For example, have 3 columns for large screens, 2 columns for medium screens, and 1 column for small screens.
+4. Create a grid layout with a fixed header row and a scrolling content area. Ensure that the header row remains fixed at the top while the content scrolls.
+5. Design a responsive card layout using CSS Grid. Each card should have a consistent width and height, and the layout should adapt based on the available space.
+6. Build a grid-based photo gallery where each photo is displayed in a grid cell. Experiment with different grid configurations and responsive behavior.
+7. Create a grid-based navigation menu with dropdown submenus. Use grid areas to position and style the menu items and submenus.
+8. Build a form layout using CSS Grid. Arrange form elements (input fields, checkboxes, labels, etc.) in a grid structure, making it visually appealing and responsive.
+9. Implement a complex grid layout with nested grids. Use the grid-template-areas property to define the layout and experiment with different configurations.
+10. Create a responsive grid layout for a blog or news website. Arrange the article previews in a grid and make sure they adjust gracefully to different screen sizes.
+
+## Questions
+
+1. What is CSS Grid and what problem does it solve in web layout?
+2. What are the main components of CSS Grid?
+3. How do you define a grid container using CSS?
+4. What is the difference between grid columns and grid rows?
+5. How do you specify the size of grid columns and rows?
+6. What are grid tracks and grid gaps?
+7. What is the difference between explicit and implicit grid tracks?
+8. How do you place items within the grid using line-based placement?
+9. What is the purpose of the `grid-template-areas` property?
+10. How do you create a nested grid using CSS Grid?
+11. How can you control the alignment and positioning of grid items?
+12. What is the purpose of the `fr` unit in CSS Grid?
+13. How do you create responsive layouts using CSS Grid?
+14. Can you explain the difference between `auto-fill` and `auto-fit` when defining grid tracks?
+15. How can you create grid layouts with different column widths based on content or desired proportions?
+16. How do you handle overflow in grid layouts?
+17. Can you combine CSS Grid with other layout techniques like Flexbox?
+18. How does CSS Grid handle alignment and distribution of space when there are varying column or row sizes?
+19. What are the browser support considerations for CSS Grid?
+20. Can you provide some examples of real-world use cases where CSS Grid is beneficial?
+
+**( Grid ka jitna problem hoga utna solve karna baaki chhod dena )
+
+**Task - 4**
+
+A. [Equilibrium point](https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?page=1&difficulty[]=0&category[]=Data%20Structures&sortBy=submissions) 
+
+B. [Count pair with given number](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1?page=1&difficulty[]=0&category[]=Data%20Structures&sortBy=submissions)

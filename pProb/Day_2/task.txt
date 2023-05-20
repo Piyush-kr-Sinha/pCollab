@@ -1,0 +1,39 @@
+# Day-2
+
+Task - 1
+
+React State ( theory )
+
+1. What is React state?
+2. How is state different from props in React?
+3. How do you initialize state in a React component?
+4. What is the recommended way to update state in React components?
+5. Can you modify state directly without using the setState method? Why or why not?
+6. What is the purpose of the setState method in React?
+7. How does React handle batch updates to state?
+8. Can you pass state as props to child components?
+9. What are the common pitfalls to avoid when working with React state?
+10. How do you manage and update complex state in React?
+
+Task - 2 
+
+JS DrumKit ( src. 30daysofJavaScript youtube channel )
+
+Task - 3
+
+Html Multimedia
+
+1. What are the different multimedia elements available in HTML?
+2. How do you embed an image in an HTML document?
+3. What are the attributes commonly used with the `<img>` tag?
+4. How do you embed a video in an HTML document?
+5. What are the attributes commonly used with the `<video>` tag?
+6. How do you specify alternative text for an image?
+7. How do you specify fallback content for browsers that do not support multimedia elements?
+8. What are the different video formats supported by HTML5?
+9. How do you control the playback of a video using HTML attributes or JavaScript?
+10. How do you add audio to an HTML document using the `<audio>` tag?
+
+Task - 4 
+
+Coding

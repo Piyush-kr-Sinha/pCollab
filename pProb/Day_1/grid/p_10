@@ -1,0 +1,221 @@
+<!-- 10. Create a responsive grid layout for a blog or news website. Arrange the article previews in a grid and make sure
+they adjust gracefully to different screen sizes. -->
+
+<!-- Html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Halla News</h1>
+    </div>
+    <div class="cont">
+        <div class="breakingNews">
+            <div class="bnTitle"><h5>BREAKING NEWS</h5></div>
+            <div class="item1">
+                <p><b>Breaking News-1</b>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis velit harum officiis quam sequi minus earum quidem, at atque assumenda nihil debitis autem voluptatibus vitae quis sunt cupiditate. Quis iste dolores facilis consectetur ex ab quisquam repellat repellendus quo corrupti nobis voluptatum quaerat, ut reprehenderit quas consequatur? Nemo, modi nobis.
+                </p>
+            </div>
+            <div class="item2">
+                <p><b>Breaking News-2</b>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis velit harum officiis quam sequi minus earum quidem, at atque assumenda nihil debitis autem voluptatibus vitae quis sunt cupiditate. Quis iste dolores facilis consectetur ex ab quisquam repellat repellendus quo corrupti nobis voluptatum quaerat, ut reprehenderit quas consequatur? Nemo, modi nobis.
+                </p>
+            </div>
+            <div class="item3">
+                <p><b>Breaking News-3</b>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis velit harum officiis quam sequi minus earum quidem, at atque assumenda nihil debitis autem voluptatibus vitae quis sunt cupiditate. Quis iste dolores facilis consectetur ex ab quisquam repellat repellendus quo corrupti nobis voluptatum quaerat, ut reprehenderit quas consequatur? Nemo, modi nobis.
+                </p>
+            </div>
+        </div>
+        <div class="detailNews">
+            <div class="dnTitle">
+                <h5>DETAILED NEWS</h5>
+            </div>
+            <div class="item4">
+                <p><b>Detailed News-1</b>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime alias sequi deserunt! Rerum explicabo repellendus harum adipisci alias. Voluptate exercitationem sapiente sequi vero eum quis quidem neque consequatur vel, aspernatur inventore architecto reprehenderit recusandae. Unde illum, at repellendus iure libero aspernatur beatae aperiam explicabo minus dicta? Tempora ut omnis quas voluptas ipsam blanditiis voluptatem voluptates consequatur alias, vero optio porro explicabo possimus eius aut obcaecati reiciendis fugiat atque, animi hic architecto distinctio ab harum vel! Repudiandae nihil quibusdam consequuntur minus beatae autem adipisci quas quisquam, illo voluptate. Praesentium omnis quod provident a dolor et saepe repellat! Mollitia molestiae id maiores saepe sequi et voluptatem repellendus. Vel ipsam nisi harum est aliquid facere illum molestias! Autem iste praesentium deserunt, a quo aspernatur consequuntur blanditiis id?
+                </p>
+            </div>
+            <div class="item5">
+                <p><b>Detailed News-2</b>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime alias sequi deserunt! Rerum explicabo repellendus harum adipisci alias. Voluptate exercitationem sapiente sequi vero eum quis quidem neque consequatur vel, aspernatur inventore architecto reprehenderit recusandae. Unde illum, at repellendus iure libero aspernatur beatae aperiam explicabo minus dicta? Tempora ut omnis quas voluptas ipsam blanditiis voluptatem voluptates consequatur alias, vero optio porro explicabo possimus eius aut obcaecati reiciendis fugiat atque, animi hic architecto distinctio ab harum vel! Repudiandae nihil quibusdam consequuntur minus beatae autem adipisci quas quisquam, illo voluptate. Praesentium omnis quod provident a dolor et saepe repellat! Mollitia molestiae id maiores saepe sequi et voluptatem repellendus. Vel ipsam nisi harum est aliquid facere illum molestias! Autem iste praesentium deserunt, a quo aspernatur consequuntur blanditiis id?
+                </p>
+            </div>
+            <div class="item6">
+                <p><b>Detailed News-3</b>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime alias sequi deserunt! Rerum explicabo repellendus harum adipisci alias. Voluptate exercitationem sapiente sequi vero eum quis quidem neque consequatur vel, aspernatur inventore architecto reprehenderit recusandae. Unde illum, at repellendus iure libero aspernatur beatae aperiam explicabo minus dicta? Tempora ut omnis quas voluptas ipsam blanditiis voluptatem voluptates consequatur alias, vero optio porro explicabo possimus eius aut obcaecati reiciendis fugiat atque, animi hic architecto distinctio ab harum vel! Repudiandae nihil quibusdam consequuntur minus beatae autem adipisci quas quisquam, illo voluptate. Praesentium omnis quod provident a dolor et saepe repellat! Mollitia molestiae id maiores saepe sequi et voluptatem repellendus. Vel ipsam nisi harum est aliquid facere illum molestias! Autem iste praesentium deserunt, a quo aspernatur consequuntur blanditiis id?
+                </p>
+            </div>
+            <div class="item7">
+                <p><b>Detailed News-4</b>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime alias sequi deserunt! Rerum explicabo repellendus harum adipisci alias. Voluptate exercitationem sapiente sequi vero eum quis quidem neque consequatur vel, aspernatur inventore architecto reprehenderit recusandae. Unde illum, at repellendus iure libero aspernatur beatae aperiam explicabo minus dicta? Tempora ut omnis quas voluptas ipsam blanditiis voluptatem voluptates consequatur alias, vero optio porro explicabo possimus eius aut obcaecati reiciendis fugiat atque, animi hic architecto distinctio ab harum vel! Repudiandae nihil quibusdam consequuntur minus beatae autem adipisci quas quisquam, illo voluptate. Praesentium omnis quod provident a dolor et saepe repellat! Mollitia molestiae id maiores saepe sequi et voluptatem repellendus. Vel ipsam nisi harum est aliquid facere illum molestias! Autem iste praesentium deserunt, a quo aspernatur consequuntur blanditiis id?
+                </p>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="anTitle">
+                <h5>ADDITIONAL NEWS</h5>
+            </div>
+            <div class="item8">
+                <p><b>Weather News</b>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam possimus doloribus cupiditate error voluptates dicta omnis odio? Corrupti dolorum facere repellat hic corporis atque perferendis illum quasi esse architecto tempora, natus perspiciatis sit repudiandae voluptates assumenda autem officiis totam iste ipsam temporibus possimus nisi aperiam! Aliquid vel ipsum facere quibusdam asperiores error? Debitis fugit facere eligendi! Consectetur dolorum assumenda voluptates quidem omnis odio repellat veritatis et aliquam tempora magni nobis quaerat, iste porro tenetur sed illum enim voluptate debitis.
+                </p>
+            </div>
+            <div class="item9">
+                <p><b>Advertisement 1</b>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam possimus doloribus cupiditate error voluptates dicta omnis odio? Corrupti dolorum facere repellat hic corporis atque perferendis illum quasi esse architecto tempora, natus perspiciatis sit repudiandae voluptates assumenda autem officiis totam iste ipsam temporibus possimus nisi aperiam! Aliquid vel ipsum facere quibusdam asperiores error? Debitis fugit facere eligendi! Consectetur dolorum assumenda voluptates quidem omnis odio repellat veritatis et aliquam tempora magni nobis quaerat, iste porro tenetur sed illum enim voluptate debitis.
+                </p>
+            </div>
+            <div class="item10">
+                <p><b>Advertisement 2</b>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam possimus doloribus cupiditate error voluptates dicta omnis odio? Corrupti dolorum facere repellat hic corporis atque perferendis illum quasi esse architecto tempora, natus perspiciatis sit repudiandae voluptates assumenda autem officiis totam iste ipsam temporibus possimus nisi aperiam! Aliquid vel ipsum facere quibusdam asperiores error? Debitis fugit facere eligendi! Consectetur dolorum assumenda voluptates quidem omnis odio repellat veritatis et aliquam tempora magni nobis quaerat, iste porro tenetur sed illum enim voluptate debitis.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- css -->
+* {
+margin: 0;
+padding: 0;
+}
+body {
+background-image:
+url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_xadGElzKCvVZTTg4-v0Q6ovpaV4dTWeAw&usqp=CAU");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+}
+.cont {
+border: 5px solid black;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto;
+padding: 5px;
+grid-gap: 15px;
+width: 85vw;
+height: 69vh;
+overflow: scroll;
+background-color: rgb(228, 239, 237);
+}
+.title {
+border: 5px solid black;
+background-color: rgb(163, 163, 202);
+height: 10vh;
+width: 86vw;
+margin: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: red;
+font-weight: bolder;
+font-size: larger;
+}
+.breakingNews {
+grid-area: 1 / 1 / 1 / 5;
+border: 2px solid black;
+height: 35vh;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+color: rgb(207, 79, 79);
+font-weight: lighter;
+font-family: "Times New Roman", Times, serif;
+}
+.bnTitle {
+display: flex;
+justify-content: center;
+background-color: rgb(144, 211, 228);
+position: sticky;
+top: 0px;
+height: 3vh;
+color: black;
+font-weight: bolder;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailNews {
+grid-area: 2 / 1 / 2 / 4;
+border: 2px solid black;
+height: 450px;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+color: rgba(247, 35, 7, 0.973);
+font-weight: lighter;
+font-family: "Times New Roman", Times, serif;
+}
+.dnTitle {
+display: flex;
+justify-content: center;
+background-color: rgb(144, 211, 228);
+position: sticky;
+top: 0px;
+height: 3vh;
+color: black;
+font-weight: bolder;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.aside {
+grid-area: 2 / 4 / 2 / 5;
+border: 2px solid black;
+height: 450px;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+color: rgb(246, 174, 6);
+font-weight: lighter;
+font-family: "Times New Roman", Times, serif;
+}
+.anTitle {
+display: flex;
+justify-content: center;
+background-color: rgb(144, 211, 228);
+position: sticky;
+top: 0px;
+height: 3vh;
+color: black;
+font-weight: bolder;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+display: none;
+}
+p {
+padding: 10px;
+}
+b {
+color: black;
+}
+
+/* responsive */
+@media only screen and (max-width: 750px) {
+.cont {
+display: grid;
+grid-template-columns: auto;
+}
+.title {
+width: 86.5vw;
+}
+.detailNews {
+grid-area: 2 / 1 / 2 / 5;
+}
+.aside {
+grid-area: 3 / 1 / 3 / 5;
+}
+}
