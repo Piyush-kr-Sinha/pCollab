@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum kit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="drumkit.js"></script>
+</head>
+
+<body>
+    <div class="container"> 
+        <div class="drumkey">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">openhat</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">tink</span>
+            </div>
+            
+        </div>
+
+    
+    </div>
+    <audio data-key="65" id="aud1" src="sound/clap.wav"></audio>
+    <audio data-key="83" id="aud2" src="sound/hihat.wav"></audio>
+    <audio data-key="68" id="aud3" src="sound/kick.wav"></audio>
+    <audio data-key="70" id="aud4" src="sound/openhat.wav"></audio>
+    <audio data-key="71" id="aud5" src="sound/boom.wav"></audio>
+    <audio data-key="72" id="aud6" src="sound/ride.wav"></audio>
+    <audio data-key="74" id="aud7" src="sound/snare.wav"></audio>
+    <audio data-key="75" id="aud8" src="sound/tom.mp3"></audio>
+    <audio data-key="76" id="aud9" src="sound/tink.wav"></audio>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/closeup-dj-working-blue-light_181624-18773.jpg?w=1060&t=st=1684160138~exp=1684160738~hmac=397c64926e9e197ae1cd533ad803ec168abdb6931122f7f9dd64bae17f723189");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .container{
+} */
+.drumkey{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 65px;
+    max-width: 900px;
+
+}
+.key{
+    display: grid;
+    grid-column: auto ;
+    border: 3px solid red;
+    transition: all 0.07s;
+    align-items: center;
+    text-align: center;
+    width: 58px;
+    margin: 10px;
+    background-color: black;
+
+}
+.playing{
+    position: relative;
+    transform: scale(1.05);
+    border: 4px solid yellow;
+    box-shadow: 0 0 10px green;
+}
+kbd{
+    color: red;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+span{
+    color: rgb(22, 245, 6);
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/* responsive */
+
+/* responsive */
+@media only screen and (max-width: 780px) {
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    background-image: url("https://img.freepik.com/free-vector/abstract-neon-lights-background_23-2148678938.jpg?w=996&t=st=1684160743~exp=1684161343~hmac=1d9394318d1410a33d84e0e8dda2c7dcbfb95cb05062e5eaf6bdd462ce942738");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.drumkey{
+   display: inline;
+  }
+kbd{
+    color: rgb(171, 244, 12);
+    /* font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; */
+}
+span{
+    color: rgb(30, 233, 148);
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 216, 234);
+    padding: 25px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+.title{
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.cont{
+    background: linear-gradient(to left, #33f5ff 0%, #608de7 100%);    
+    width: 100%;
+    max-width: 900px;
+    padding: 15px;
+    border: 1px solid antiquewhite;
+    border-radius: 18px;
+    
+}
+
+.userDetail{
+    margin: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.input{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    height: 45px;
+    
+}
+.detailsTag{
+    padding: 5px;
+}
+.detailsData{
+    /* padding: 5px; */
+   
+}
+input[type]{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    height: 25px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.submitBtn{
+    width: 80%;
+    height: 30px;
+    background-color:lightgray
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* responsive */
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: rgb(168, 102, 234);
+     color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+  }
+  .userDetail{
+    margin: 18px;
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-around;
+    /* display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.input{
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-between;
+    height: 45px;
+    margin: 10px;
+    
+}
+.title{
+    display: flex;
+    float:r;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+.detailsTag{
+    padding: 5px;
+    text-align: center;
+}
+
+}
