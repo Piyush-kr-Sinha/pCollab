@@ -1,0 +1,82 @@
+/* Problem 2: Counter**
+Build a React component with a button and a counter display. Clicking the button should increment the counter by 1 and update the display.
+ */
+
+ /* App.js */
+
+/* // import React from "react";
+import "./styles.css";
+import { useState } from "react";
+export default function App() {
+  const [num, setNum] = useState(0);
+  const incr = () => {
+    setNum(num + 1);
+  };
+  const decr = () => {
+    if (num > 0) {
+      setNum(num - 1);
+    } else {
+      alert("we are sorry you are at minimum");
+    }
+  };
+  return (
+    <div className="App">
+      <div className="cont">
+        <div className="disp">
+          <h2 className="numb">{num}</h2>
+        </div>
+        <div className="btn">
+          <div className="plus" onClick={incr}>
+            <h3>+</h3>
+          </div>
+          <div className="minus" onClick={decr}>
+            <h3>-</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+} */
+
+
+/* App.css */
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+*{
+  margin :0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 25vw;
+  height: 25vh;
+}
+.btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.plus:hover{
+  cursor: pointer;
+  background-color: blanchedalmond;
+}
+.minus:hover{
+  cursor: pointer;
+  background-color: blanchedalmond;
+}
+.plus, .minus{
+  width: 50px;
+  border: 2px solid black;
+  /* cursor: pointer;
+  background-color: blanchedalmond; */
+} */

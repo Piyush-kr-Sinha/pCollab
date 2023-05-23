@@ -1,0 +1,66 @@
+<!-- Problem 5: Mouse Movement Tracker**
+Build a React component that tracks the mouse movement within a specified area. Display the current x and y coordinates of the mouse within the area as the user moves the mouse. Use event handling to capture the mouse movement events. -->
+
+<!-- MouseTracker.jsx -->
+<!-- 
+import Style from "./Style.css";
+import { useState } from "react";
+export default function MouseTracker() {
+  let [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  function handleMouseMove(e) {
+    const { clientX, clientY } = e;
+    const { left, top } = e.target.getBoundingClientRect();
+    const x = clientX - left;
+    const y = clientY - top;
+    setMousePosition({ x, y });
+  }
+  return (
+    <div id="cont">
+      <h2>Move your mouse in box</h2>
+      <div
+        id="trackPad"
+        onMouseMove={(e) => {
+          handleMouseMove(e);
+        }}></div>
+      <div id="disp">
+        <p id="xCord">X Cordinate = {mousePosition.x}</p>
+        <p id="yCord">Y Cordinate = {mousePosition.y}</p>
+      </div>
+    </div>
+  );
+}
+
+ -->
+
+
+ <!-- Style.css -->
+ <!-- 
+ * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trackPad {
+  background-color: whitesmoke;
+  height: 60vh;
+  width: 90vw;
+  border: 2px solid black;
+}
+#disp {
+  border: 0.1px solid rgb(181, 176, 176);
+  margin-top: 2px;
+}
+#xCord {
+  color: red;
+}
+#yCord {
+  color: rgba(24, 91, 224, 0.902);
+}
+
+  -->

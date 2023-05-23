@@ -1,0 +1,25 @@
+## React event day - 2 some more problems to polish your skills
+
+- **Keyboard Event Handling**: Create a component that 
+detects when the Enter key is pressed in an input field. Display an 
+alert or perform an action when the Enter key is pressed.
+
+- **Drag and Drop**: Build a component with a draggable 
+element. Implement event handlers to detect when the element is dragged 
+and dropped, and perform an action accordingly.
+
+- **Scroll Event**: Implement a component that detects when 
+the user scrolls the page. Display a message or perform an action when 
+the scroll event is triggered.
+
+- **Image Gallery with Lightbox**: Create an image gallery 
+component. When an image is clicked, display a lightbox modal with the 
+clicked image and provide navigation to view other images.
+
+- **Copy to Clipboard**: Create a component with a button and
+ a text. Clicking the button should copy the text to the clipboard and 
+display a success message.
+
+- **Autocomplete Input**: Implement an autocomplete input 
+component that suggests options as the user types, and allows the user 
+to select an option from the suggestions.

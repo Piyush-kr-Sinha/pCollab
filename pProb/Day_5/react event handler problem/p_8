@@ -1,0 +1,2 @@
+<!-- Problem 8: Image Slider**
+Build an image slider in React. Display a series of images and provide previous and next buttons to navigate between them. Implement event handling to capture the button click events and update the currently displayed image. -->

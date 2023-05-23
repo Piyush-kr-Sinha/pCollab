@@ -1,0 +1,86 @@
+<!-- Problem 4: Input Validation**
+Create a React component with an input field and a button. When the button is clicked, validate the input value and display an appropriate message based on the validity (e.g., "Valid input" or "Invalid input"). -->
+
+<!-- Validation.jsx -->
+<!-- import Style from "./Style.css";
+export default function Validation() {
+  return (
+    <div id="mainCont">
+      <h3>DL Eligibility Check</h3>
+      <input id="inpt" type="number" placeholder="Enter your age" />
+      <button
+        id="btn"
+        onClick={(e) => {
+          const age = document.getElementById("inpt").value;
+          if (age >= 18) {
+            // return(
+            alert("Your are eligible");
+            // )
+          } else {
+            // return(
+            let diff = 18 - age;
+            alert("Your are not eligible wait for " + diff + " year");
+            // )
+          }
+        }}>
+        Check
+      </button>
+      <div id="disp">
+        <h1 id="show"></h1>
+      </div>
+    </div>
+  );
+} -->
+
+<!-- Style.css -->
+<!-- 
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mainCont {
+  height: 30vh;
+  width: 50vw;
+  background-color: blanchedalmond;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+#chck {
+  padding-top: 5px;
+  height: 40%;
+  width: 99;
+  background-color: rgb(226, 199, 160);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#btn {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  border-radius: 5px;
+}
+#show {
+  color: red;
+  font-size: 2vw;
+  font-size: 3.5vh;
+}
+input {
+  text-align: center;
+  border-radius: 5px;
+}
+
+ -->

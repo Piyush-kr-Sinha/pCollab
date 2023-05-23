@@ -1,0 +1,43 @@
+React event handling 
+
+1. What is event handling in React, and why is it important?
+2. How do you handle events in React functional components? How does it differ from class components?
+3. What is the purpose of the `onClick` event in React? How is it used?
+4. How do you pass data or parameters to event handlers in React?
+5. Explain the concept of event propagation and event bubbling in React.
+6. What is the difference between using inline event handlers and defining event handlers as separate functions in React?
+7. How can you prevent the default behavior of an event in React?
+8. What is the purpose of the `event` object in event handling? How can you access its properties and methods in React?
+9. How do you handle asynchronous events in React, such as fetching data from an API on button click?
+10. Explain how you can bind event handlers to the correct instance of a component in React.
+11. What are synthetic events in React? How do they help normalize browser inconsistencies?
+12. How do you handle form submissions in React? What is the role of the `onSubmit` event?
+13. Can you explain the concept of event delegation in React and its benefits?
+14. What are some best practices for event handling in React, such as handling performance concerns and avoiding memory leaks?
+15. How can you test event handlers in React components using testing frameworks like Jest and React Testing Library?
+
+### Problems
+
+**Problem 1: Button Toggle**
+Create a React component with a button. Initially, the button should display the text "Off". When the button is clicked, it should toggle the text between "On" and "Off".
+
+**Problem 2: Counter**
+Build a React component with a button and a counter display. Clicking the button should increment the counter by 1 and update the display.
+
+**Problem 3: Todo List with Event Handling**
+Implement a Todo List application in React. Each todo item should have a checkbox and a text. Clicking the checkbox should mark the todo item as completed and update its appearance. Implement event handling to capture the checkbox click event and update the state accordingly.
+
+**Problem 4: Input Validation**
+Create a React component with an input field and a button. When the button is clicked, validate the input value and display an appropriate message based on the validity (e.g., "Valid input" or "Invalid input").
+
+**Problem 5: Mouse Movement Tracker**
+Build a React component that tracks the mouse movement within a specified area. Display the current x and y coordinates of the mouse within the area as the user moves the mouse. Use event handling to capture the mouse movement events.
+
+**Problem 6: Dropdown Menu**
+Implement a dropdown menu in React. Clicking on the menu should display a list of options. Clicking on an option should select it and update the selected option in the component state. Implement event handling to capture the menu and option click events.
+
+**Problem 7: Form Submission**
+Create a React component with a form that captures user information (name, email, etc.). When the form is submitted, display an alert or console log with the captured information. Use event handling to capture the form submission event.
+
+**Problem 8: Image Slider**
+Build an image slider in React. Display a series of images and provide previous and next buttons to navigate between them. Implement event handling to capture the button click events and update the currently displayed image.

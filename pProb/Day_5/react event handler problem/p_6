@@ -1,0 +1,128 @@
+<!-- Problem 6: Dropdown Menu**
+Implement a dropdown menu in React. Clicking on the menu should display a list of options. Clicking on an option should select it and update the selected option in the component state. Implement event handling to capture the menu and option click events. -->
+
+<!-- Dropdown.jsx -->
+<!-- import Style from "./Style.css";
+import { useState } from "react";
+export default function Dropdown() {
+  let [select, setSelect] = useState("Select from Dropdown");
+  return (
+    <div id="touch">
+      <div id="mainCont">
+        <label id="inpt">Name</label>
+        <input
+          type="text"
+          id="inpt"
+          value={select}
+          onClick={(e) => {
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "block";
+          }}
+        />
+      </div>
+      <div id="dropdown-content" className="dc">
+        <p
+          id="p1"
+          onClick={(e) => {
+            setSelect(document.getElementById("p1").innerText);
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "none";
+          }}>
+          Piyush Kumar Sinha
+        </p>
+        <p
+          id="p2"
+          onClick={(e) => {
+            setSelect(document.getElementById("p2").innerText);
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "none";
+          }}>
+          Ronit Raj
+        </p>
+        <p
+          id="p3"
+          onClick={(e) => {
+            setSelect(document.getElementById("p3").innerText);
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "none";
+          }}>
+          Chandan Kumar
+        </p>
+        <p
+          id="p4"
+          onClick={(e) => {
+            setSelect(document.getElementById("p4").innerText);
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "none";
+          }}>
+          Suraj Kumar
+        </p>
+        <p
+          id="p5"
+          onClick={(e) => {
+            setSelect(document.getElementById("p5").innerText);
+            let elem = document.getElementById("dropdown-content");
+
+            elem.style.display = "none";
+          }}>
+          Avinash Kumar
+        </p>
+      </div>
+    </div>
+  );
+} -->
+
+<!-- Style.css -->
+<!-- * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#mainCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#touch {
+  height: 35vh;
+  width: 50vw;
+  background-color: khaki;
+  padding: 10px;
+}
+#inpt {
+  margin-left: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#dropdown-content {
+  border: 1px solid wheat;
+  z-index: 1;
+  display: none;
+}
+.dc {
+  display: flex;
+  width: 39vw;
+  height: 65%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: justify;
+  margin-top: 3px;
+  margin-left: 50px;
+}
+p {
+  border: 0.1px solid black;
+  cursor: pointer;
+  margin-top: 1px;
+} -->

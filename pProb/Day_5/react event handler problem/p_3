@@ -1,0 +1,128 @@
+<!-- Problem 3: Todo List with Event Handling**
+Implement a Todo List application in React. Each todo item should have a checkbox and a text. Clicking the checkbox
+should mark the todo item as completed and update its appearance. Implement event handling to capture the checkbox click
+event and update the state accordingly. -->
+
+
+
+<!-- Todo.jsx -->
+<!-- import { useState } from "react";
+// import Style from "./Components/Style";
+export default function Todo() {
+  let [task, setTask] = useState("");
+  let [tasks, setTasks] = useState([]);
+  return (
+    <div id="mainCont">
+      <h3>TO-DO List</h3>
+      <div id="inputTake">
+        <input
+          type="text"
+          id="addTask"
+          onChange={(e) => {
+            setTask([e.target.value]);
+          }}
+        />
+        <button
+          id="add"
+          onClick={() => {
+            setTasks([...tasks, task]);
+          }}
+        >
+          Add
+        </button>
+      </div>
+      <div id="dispTask">
+        {tasks.map((task) => {
+          return (
+            <div id="show">
+              <input type="checkbox" name={task} />
+              <label for={task} id="show">
+                {task}
+              </label>
+              <br />
+            </div>
+          );
+        })}
+      </div>
+         
+    </div>
+  );
+} -->
+
+
+
+<!-- Style.css -->
+<!-- 
+    .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#mainCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(210, 221, 232);
+  height: 75vh;
+  width: 65vw;
+  padding: 5px;
+  border-radius: 10px;
+}
+#inputTake {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(142, 174, 207);
+  height: 10%;
+  width: 55vw;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+#dispTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(12, 71, 131);
+  height: 75%;
+  width: 55vw;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input {
+  text-align: center;
+}
+#show {
+  margin-left: 8px;
+  margin-top: 3px;
+}
+#add {
+  width: 45px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: red;
+  background-color: rgb(205, 200, 191);
+}
+/* #show:checked{
+  text-decoration: line-through;
+} */
+
+ -->
