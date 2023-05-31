@@ -1,0 +1,70 @@
+
+// // // Problem 8: Create a dropdown component that receives an array of options as a prop.Render the dropdown with the options, and when an option is selected, display an alert with the selected value
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//     const dropdown = [
+//         "Piyush Kumar Sinha",
+//         "Ronit Raj",
+//         "Chandan Kumar",
+//         "Rahul Singh",
+//         "Krishna Nand Mishra",
+//         "Gautam Chandra Marandi",
+//         "Pratyush Chandra",
+//         "Vikas Bharadwaj"
+//     ];
+//     return (
+//         <>
+//             <Child message={dropdown} />
+//             {/* <div>
+        
+//       </div>
+//     */}
+//         </>
+//     );
+// }
+
+
+
+// // Child.jsx
+// import { useState } from "react";
+
+// export default function Child(Props) {
+//     const [name, setName] = useState(" ");
+//     function disp() {
+//         const elem = document.getElementById("dis");
+//         elem.style.display = "block";
+//     }
+//     return (
+//         <>
+//             <div>
+//                 <input type="text" value={name} onClick={disp} />
+//             </div>
+
+//             <div id="dis" style={{ display: "none" }}>
+//                 {Props.message.map((item) => {
+//                     return (
+//                         <>
+//                             <li
+//                                 style={{
+//                                     display: "flex",
+//                                     width: "40%",
+//                                     justifyContent: "center",
+//                                     marginLeft: "30%",
+//                                     cursor: "pointer"
+//                                 }}
+//                                 onClick={(e) => {
+//                                     setName(e.target.innerHTML);
+//                                 }}>
+//                                 {item}
+//                             </li>
+//                         </>
+//                     );
+//                 })}
+//             </div>
+//         </>
+//     );
+// }
+

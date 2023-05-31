@@ -1,0 +1,35 @@
+React Hooks Problem
+
+1. Create a counter component using `useState` hook. Display the count and provide buttons to increment and decrement the count.
+2. Build a form component using `useState` to capture and display user input (e.g., name, email, password).
+3. Implement a toggle switch using `useState` to toggle the state between "On" and "Off".
+
+- **useEffect:**
+1. Create a component that fetches data from an API using `useEffect` and displays it on the screen.
+2. Build a timer component using `useEffect` to update and display the elapsed time.
+3. Implement a component that listens for window resize events using `useEffect` and displays the window dimensions.
+
+- **useContext:**
+1. Create a context and use `useContext` to consume its value in multiple child components.
+2. Build a theme switcher component using `useContext` to switch between light and dark themes.
+3. Implement a multi-step form component using `useContext` to share data across steps.
+
+- **useReducer:**
+1. Build a shopping cart component using `useReducer` to manage the cart items and their quantities.
+2. Implement a todo list component using `useReducer` to add, update, and delete todo items.
+3. Create a game component using `useReducer` to manage game state, such as score, level, and player lives.
+
+- **useCallback:**
+1. Create a component that renders a list of items. Use `useCallback` to memoize the item renderer function.
+2. Build a component that accepts a callback prop. Use `useCallback` to memoize the callback and prevent unnecessary re-renders.
+3. Implement a memoized Fibonacci calculator component using `useCallback` to avoid redundant calculations.
+
+- **useMemo:**
+1. Create a component that computes and displays the factorial of a number using `useMemo`.
+2. Build a component that applies a complex computation to an input using `useMemo` to memoize the result.
+3. Implement a memoized sum calculator component using `useMemo` to avoid recomputation.
+
+- **useRef:**
+1. Create a component that uses `useRef` to focus an input field on initial render.
+2. Build a component that uses `useRef` to store and access a previous value of a state variable.
+3. Implement a component that uses `useRef` to store and display the number of times a button is clicked.

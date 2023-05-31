@@ -1,0 +1,40 @@
+
+// // // Problem 9: Implement a component that receives a prop representing a color and displays a colored box on the screen using the received color value.
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//     const color = "red";
+//     return <Child message={color} />;
+// }
+
+
+
+// // Child.jsx
+// export default function Child(Props) {
+//     const backgroundColor = Props.message;
+//     return (
+//         <div
+//             style={{
+//                 width: "100vw",
+//                 height: "100vh",
+//                 display: "flex",
+//                 justifyContent: "center",
+//                 alignItems: "center"
+//             }}>
+//             <div
+//                 style={{
+//                     backgroundColor,
+//                     width: "50vw",
+//                     height: "50vh",
+//                     display: "flex",
+//                     justifyContent: "center",
+//                     alignItems: "center"
+//                 }}>
+//                 hello my background color is send by parent component
+//             </div>
+//         </div>
+//     );
+// }
+

@@ -1,0 +1,26 @@
+// //Problem 2:
+// // Create a button component that accepts a prop for the button label. On clicking the button, display an alert message with the label value.
+
+// //Parent.jsx
+
+// import ChildA from "./ChildA";
+// export default function Parent() {
+//   return <ChildA message="Hello I am message from parent" />;
+// }
+
+
+
+// //ChildA.jsx
+// export default function childA(Props) {
+//   return (
+//     <>
+//       <button
+//         onClick={(e) => {
+//           alert(Props.message);
+//         }}
+//       >
+//         Click me
+//       </button>
+//     </>
+//   );
+// }

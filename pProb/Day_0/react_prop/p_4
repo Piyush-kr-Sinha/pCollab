@@ -1,0 +1,38 @@
+
+// // // Problem 4:
+// Implement a toggle component that has a button and a text display.Initially, the text display should be hidden.On clicking the button, toggle the visibility of the text display.
+
+//  //Parent.jsx
+
+// import { useState } from "react";
+// import Child from "./Child";
+// export default function Parent() {
+//     const [visible, setVisible] = useState("");
+//     return (
+//         <div>
+//             <button
+//                 onClick={(e) => {
+//                     setVisible("Hey I am Displayed");
+//                 }}
+//                 onDoubleClick={(e) => {
+//                     setVisible("");
+//                 }}>
+//                 Click Me to see hidden text
+//             </button>
+//             <Child message={visible} />
+//         </div>
+//     );
+// }
+
+
+
+// // Child.jsx
+// export default function Child(Props) {
+//     return (
+//         <>
+//             <div>{Props.message}</div>
+//         </>
+//     );
+// }
+
+

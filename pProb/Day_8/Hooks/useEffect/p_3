@@ -1,0 +1,67 @@
+<!-- 
+    Display Screen size of window
+ -->
+
+ <!-- Resize.jsx -->
+
+<!-- import { useEffect, useState } from "react";
+import Style from "./Style.css";
+export default function Resize() {
+  const [sizeWidth, setSizeWidth] = useState(window.screen.width);
+  const [sizeHeight, setSizeHeight] = useState(window.screen.height);
+
+  //  define the function currentSIze
+  const currentSize = () => {
+    setSizeWidth(window.innerWidth);
+    setSizeHeight(window.innerHeight);
+  };
+  useEffect(() => {
+    // add eventlistner when we do resize of window screen
+    window.addEventListener("resize", currentSize);
+
+    // this is to remove eventListner from eventlistner
+    // list present in inspect if we dont do it then
+    // it take soo much space in browser
+
+    return () => {
+      window.removeEventListener("resize", currentSize);
+    };
+  });
+  return (
+    <div id="mainCont">
+      <p>The current width of window is : {sizeWidth}</p>
+      <p>The current Height of window is : {sizeHeight}</p>
+    </div>
+  );
+} -->
+
+
+<!-- Style.css -->
+
+<!-- 
+    * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainCont {
+  background-color: rgb(218, 229, 208);
+  width: 80vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rebeccapurple;
+}
+
+ -->

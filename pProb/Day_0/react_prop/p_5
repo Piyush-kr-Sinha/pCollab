@@ -1,0 +1,59 @@
+
+
+// // // Problem 5: Create a form component that accepts props for input fields(e.g., name, email).Display the input fields with appropriate labels, and when the form is submitted, display an alert with the entered values.
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//     const user = [
+//         {
+//             name: "Piyush Kumar Sinha",
+//             email: "piyush@gmail.com",
+//             gender: "Male",
+//             phone: "1234567890",
+//             address: "Hanuman Nagar Patna Bihar"
+//         }
+//     ];
+//     return (
+//         <div>
+//             {user.map((item) => {
+//                 return (
+//                     <div>
+//                         <Child message={item} />
+//                     </div>
+//                 );
+//             })}
+//         </div>
+//     );
+// }
+
+
+
+// // Child.jsx
+// export default function Child(Props) {
+//     return (
+//         <div>
+//             <div>
+//                 <label>Full Name :- </label>
+//                 <input type="text" value={Props.message.name} />
+//             </div>
+//             <div>
+//                 <label>Email :- </label>
+//                 <input type="email" value={Props.message.email} />
+//             </div>
+//             <div>
+//                 <label>Gender :- </label>
+//                 <input type="email" value={Props.message.gender} />
+//             </div>
+//             <div>
+//                 <label>Phone :- </label>
+//                 <input type="email" value={Props.message.phone} />
+//             </div>
+//             <div>
+//                 <label>Address :- </label>
+//                 <input type="email" value={Props.message.address} />
+//             </div>
+//         </div>
+//     );
+// }

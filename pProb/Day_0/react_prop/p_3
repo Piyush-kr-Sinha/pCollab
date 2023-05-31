@@ -1,0 +1,26 @@
+
+// // // Problem 3 : Build a list component that receives an array of items as a prop. Render each item as a list item within an unordered list.
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//   const places = ["Patna", "Rohtas", "Gaya", "Jahanabad", "Buxar", "Ara"];
+//   return (
+//     <div>
+//       {places.map((place) => {
+//         return <Child message={place} />;
+//       })}
+//     </div>
+//   );
+// }
+
+
+// // Child.jsx
+// export default function Child(Props) {
+//   return (
+//     <>
+//       <div>{Props.message}</div>
+//     </>
+//   );
+// }

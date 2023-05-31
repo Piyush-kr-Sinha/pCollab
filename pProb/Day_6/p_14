@@ -1,0 +1,112 @@
+<!-- Autocomplete Input**: Implement an autocomplete input 
+component that suggests options as the user types, and allows the user 
+to select an option from the suggestions. -->
+
+
+<!-- Autocomplete.jsx -->
+ <!-- 
+  import Style from "./Style.css";
+import { useState } from "react";
+export default function Autocomplete() {
+  let options = [
+    "Piyush",
+    "Pratyush",
+    "Gautam",
+    "Gaurav",
+    "Ronit",
+    "Rahul",
+    "Rohit",
+    "Rishav",
+    "Priyanshu",
+    "Priyesh"
+  ];
+  const [inputValue, setInputValue] = useState("");
+  const [suggestion, setSuggestion] = useState([]);
+  return (
+    <div id="mainCont">
+      <div id="inpt">
+        <input
+          type="text"
+          id="take"
+          onChange={(e) => {
+            let mtch = e.target.value;
+            setInputValue(mtch);
+            const filteredSuggestion = options.filter((opt) => {
+              return opt.toLowerCase().includes(mtch.toLowerCase());
+            });
+            if (mtch === "") {
+              setSuggestion([]);
+              return;
+            }
+            setSuggestion(filteredSuggestion);
+            return;
+          }}
+          value={inputValue}
+        />
+      </div>
+      <div className="suggestions">
+        {suggestion.map((item) => {
+          return (
+            <div id="disp">
+              <li
+                id="list"
+                onClick={(e) => {
+                  setInputValue(item);
+                  setSuggestion([]);
+                }}>
+                {item}
+              </li>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+  -->
+
+
+<!-- Style.css -->
+<!-- 
+  * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#mainCont {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 85vw;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 55vw;
+  text-align: center;
+}
+#disp {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(158, 158, 158, 0.416);
+  width: 55vw;
+  margin-top: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+#list {
+  /* background-color: rgb(177, 137, 17); */
+  display: flex;
+  justify-content: flex-start;
+  width: 95px;
+  text-align: center;
+}
+
+
+ -->

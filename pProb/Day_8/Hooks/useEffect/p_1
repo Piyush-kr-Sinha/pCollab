@@ -1,0 +1,120 @@
+<!-- 
+    Create a component that fetches data from an API using `useEffect` and displays it on the screen.
+ -->
+
+
+ <!-- Getdata.jsx -->
+
+<!-- import { useEffect, useState } from "react";
+import Style from "./Style.css";
+import User from "./User";
+export default function Getdata() {
+  const [student, setStudent] = useState([]);
+  const getUsers = async () => {
+    const response = await fetch("https://reqres.in/api/users?page=2");
+    const data = await response.json();
+    setStudent(await data.data);
+  };
+  useEffect(() => {
+    getUsers();
+  }, []);
+  return (
+    <div id="passCont">
+      {student.map((item) => {
+        return (
+          // if you want to do all in one component them below code from 19to30 uncomment it
+          // <div>
+          //   <div>
+          //     <img src={item.avatar} alt="dp" />
+          //   </div>
+          //   <div>
+          //     <p>Hello I am</p>
+          //     <p>
+          //       {item.first_name} {item.last_name}
+          //     </p>
+          //     <p>{item.email}</p>
+          //   </div>
+          // </div>
+
+          // if you want to send data as props to another component
+          <User student={item} />
+        );
+      })}
+    </div>
+  );
+} -->
+
+
+<!-- User.jsx -->
+
+<!-- 
+    import Style from "./Style.css";
+export default function User(props) {
+  return (
+    <div id="mainCont">
+      <div id="cont">
+        <div>
+          <img src={props.student.avatar} alt="dp" />
+        </div>
+        <div>
+          <p>{props.student.id}</p>
+          <p>
+            {props.student.first_name} {props.student.first_name}
+          </p>
+          <p>{props.student.email}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+ -->
+
+
+ <!-- Style.css -->
+
+ <!-- 
+    * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#passCont {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  grid-gap: 35px;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+#mainCont {
+  border: 1px solid red;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  height: 28vh;
+  border-radius: 25px;
+}
+#cont {
+  padding: 2px;
+  width: 25vw;
+  height: 26vh;
+}
+img {
+  width: 9vw;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+p {
+  font-size: 2vh;
+  font-family: cursive;
+}
+
+  -->

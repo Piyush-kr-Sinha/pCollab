@@ -1,0 +1,45 @@
+
+
+
+// // // Problem 6:Develop a component that displays a counter.Pass an initial count value as a prop and provide buttons to increment and decrement the count.Display the updated count value on the screen.
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//     const initialValue = 0;
+//     return (
+//         <div>
+//             <Child message={initialValue} />
+//         </div>
+//     );
+// }
+
+
+
+// // Child.jsx
+// import { useState } from "react";
+// export default function Child(Props) {
+//     const [value, setValue] = useState(Props.message);
+//     let count = value;
+//     return (
+//         <div>
+//             <div>{value}</div>
+//             <button
+//                 onClick={(e) => {
+//                     count++;
+//                     setValue(count);
+//                 }}>
+//                 Increment
+//             </button>
+//             <button
+//                 onClick={(e) => {
+//                     count--;
+//                     setValue(count);
+//                 }}>
+//                 Decrement
+//             </button>
+//         </div>
+//     );
+// }
+

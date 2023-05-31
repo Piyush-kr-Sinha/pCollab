@@ -1,0 +1,20 @@
+
+// // // Problem 10:Build a component that receives a prop representing a user's name. Display a personalized greeting message using the received name.
+
+//  //Parent.jsx
+
+// import Child from "./Child";
+// export default function Parent() {
+//     const name = "Piyush Kumar Sinha";
+//     return <Child message={name} />;
+// }
+
+
+
+// // Child.jsx
+// export default function Child(Props) {
+//     alert(`Is your name is ${Props.message} if yes press ok`);
+//     console.log(`${Props.message}`);
+//     return <h1>{Props.message} your name is submitted</h1>;
+// }
+

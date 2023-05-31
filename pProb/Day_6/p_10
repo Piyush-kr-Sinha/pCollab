@@ -1,0 +1,88 @@
+<!-- Scroll Event**: Implement a component that detects when 
+the user scrolls the page. Display a message or perform an action when 
+the scroll event is triggered. -->
+
+<!-- Scroll.jsx -->
+<!-- 
+import Style from "./Style.css";
+export default function Scroll() {
+  return (
+    <div
+      id="mainCont"
+      onScroll={(e) => {
+        alert("You want to scrolled the text");
+      }}>
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum totam
+        enim dicta reprehenderit atque minima esse cumque vitae corporis,
+        eligendi incidunt possimus, animi nemo explicabo dolorem eum ex quia
+        labore, necessitatibus distinctio quam. Aliquam exercitationem sapiente
+        libero inventore et voluptatibus laudantium ullam iure odit adipisci
+        consequuntur harum mollitia iusto, aspernatur fugiat ex incidunt sequi
+        necessitatibus dolores. Numquam quo aut cupiditate voluptas autem
+        molestiae non animi! Temporibus iusto molestiae obcaecati nulla ipsa,
+        debitis facilis nam necessitatibus hic accusantium! Recusandae quam,
+        deserunt dignissimos neque iusto nesciunt repellendus corporis?
+        Obcaecati ipsum maxime quod doloremque sapiente sit tenetur. Quaerat,
+        soluta odio accusantium aliquid incidunt cupiditate quod, quo
+        reiciendis, rerum sint necessitatibus! Eum, laudantium corrupti minima
+        aperiam ullam quae saepe repellendus dolorum? Ab facilis doloremque,
+        eligendi doloribus molestias, rerum minus dicta explicabo voluptas
+        necessitatibus accusantium, nobis esse? Doloremque, quod suscipit
+        quibusdam nisi odit minus quos, saepe excepturi accusamus voluptas
+        voluptate, rem quis fugiat expedita beatae quas quam eius aliquid. Optio
+        explicabo quae velit! Natus modi accusantium, asperiores sequi omnis
+        velit distinctio animi est enim voluptatem, eum ipsum, ex eligendi earum
+        ab id. Repellat dolorum, tempora laborum consequatur velit neque, illo,
+        nulla delectus atque natus adipisci temporibus est? Non, voluptatibus
+        totam earum veritatis blanditiis impedit autem, corporis consequuntur
+        soluta libero quibusdam ipsum illum cupiditate placeat ab consectetur
+        iusto voluptas sed consequatur ipsam labore. Beatae, amet, quia,
+        cupiditate nam unde inventore repellat commodi iste quae veritatis
+        expedita est culpa. Necessitatibus quaerat quas aut! Illo saepe
+        provident totam ad, quaerat praesentium autem, iure consequatur eaque
+        voluptatum quasi deleniti.{" "}
+      </p>
+    </div>
+  );
+}
+
+ -->
+
+
+ <!-- Style.css -->
+ <!-- 
+ * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainCont {
+  height: 25vh;
+  width: 50vw;
+  border: 2px solid black;
+  overflow: scroll;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#para {
+  border: 2px dotted red;
+  margin: 1px;
+  padding: 1px;
+  overflow: scroll;
+  height: 24vh;
+  width: 48vw;
+}
+
+  -->

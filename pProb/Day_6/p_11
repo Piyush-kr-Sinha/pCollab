@@ -1,0 +1,85 @@
+<!-- 
+    Drag and Drop**: Build a component with a draggable 
+element. Implement event handlers to detect when the element is dragged 
+and dropped, and perform an action accordingly.
+ -->
+
+
+ <!-- DragDrop.jsx -->
+<!-- import style from "./Style.css";
+import { useState } from "react";
+export default function DragDrop() {
+  const [drg, setDrg] = useState("Please drag me into the box");
+  return (
+    <div id="mainCont">
+      <div
+        id="dragCont"
+        draggable="true"
+        onDragStart={(e) => {
+          e.dataTransfer.setData("text", e.target.id);
+        }}>
+        {drg}
+      </div>
+      <div
+        id="disp"
+        // after dropping
+        onDragOver={(e) => {
+          e.preventDefault();
+          setDrg("Thank you for sucessful drag");
+        }}
+        // event handler when dragged item is dragged to the targeted item
+        onDrop={(e) => {
+          e.preventDefault();
+          const data = e.dataTransfer.getData("text");
+          e.target.appendChild(document.getElementById(data));
+        }}>
+        <p>Drop it here</p>
+      </div>
+    </div>
+  );
+} -->
+
+
+<!-- Style.css -->
+<!-- 
+    * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainCont {
+  background-color: rgb(236, 164, 164);
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#dragCont {
+  background-color: rgb(164, 200, 236);
+  width: 75px;
+  height: 70px;
+  border: 0.1px solid black;
+  text-align: center;
+  font-size: 90%;
+}
+#disp {
+  background-color: rgb(202, 236, 164);
+  width: 65%;
+  height: 40%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+}
+
+ -->

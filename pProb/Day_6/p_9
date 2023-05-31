@@ -1,0 +1,50 @@
+<!-- Keyboard Event Handling**: Create a component that 
+detects when the Enter key is pressed in an input field. Display an 
+alert or perform an action when the Enter key is pressed. -->
+
+
+<!-- Enterkey.jsx -->
+<!-- import Style from "./Style.css";
+export default function Enterkey() {
+  return (
+    <div id="mainCont">
+      <p>Please Enter your name and press enter to alert it.</p>
+      <div>
+        <input
+          type="text"
+          id="inpt"
+          onKeyDown={(e) => {
+            let take = document.getElementById("inpt").value;
+            if (e.code === "Enter" || e.code === "NumpadEnter") {
+              alert("Enter is pressed");
+              alert("Your name is : " + take);
+            }
+          }}
+        />
+      </div>
+    </div>
+  );
+} -->
+
+
+<!-- Style.css -->
+<!-- 
+    * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inpt {
+  margin: 5px;
+  width: 45vw;
+  height: 5vh;
+  text-align: center;
+}
+
+ -->
