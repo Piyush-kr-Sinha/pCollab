@@ -1,0 +1,24 @@
+1. What is the purpose of `async/await` in JavaScript?
+2. How do you define an asynchronous function using the `async` keyword?
+3. How does the `await` keyword work in an `async` function?
+4. How does `async/await` differ from using traditional promises and `.then()` syntax?
+5. What happens when an `async` function encounters an error? How can you handle errors with `async/await`?
+6. Can you use multiple `await` statements consecutively in an `async` function? How does the execution flow behave in such cases?
+7. How can you handle errors or rejections when using `await` to wait for a promise to resolve?
+8. Can you use `async/await` with non-promise-based asynchronous operations, such as timers or callbacks?
+9. How do you handle parallel asynchronous operations using `async/await`?
+10. How can you chain multiple asynchronous operations together using `async/await`?
+
+# Problems
+
+- **Fetching Data:** Write an `async` function that fetches data from an API using `fetch()` and `await`. Log the fetched data to the console.
+- **Error Handling:** Implement error handling in an `async` function that performs an asynchronous operation. Use `try/catch` to catch any errors that occur and log an error message.
+- **Sequential Requests:** Create an `async` function that makes multiple API requests sequentially using `await`. Each request should depend on the response of the previous request.
+- **Parallel Requests:** Write an `async` function that makes multiple API requests in parallel using `Promise.all()` and `await`. Log the combined responses when all requests have completed.
+- **Timeout with Promises:** Implement a function that returns a promise and resolves after a specified timeout. Use `async/await` to pause execution until the promise resolves.
+
+# Coding Question
+
+[Union of two arrays | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0)
+
+[Cyclically rotate an array by one | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0)

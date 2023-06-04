@@ -1,0 +1,32 @@
+ <!-- Error Handling:** Implement error handling in an`async` function that performs an asynchronous operation.Use `try/catch` to catch any errors that occur and log an error message. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Try/Catch</title>
+</head>
+<body>
+    <script>
+        async function security(pass){
+            try{
+                if(pass==2503){
+                    console.log('Password matched');
+                    console.log('Code unlock')
+                }
+                else{
+                    throw new Error('Password not matched try again!..')
+                }
+            }
+            catch(error){
+                console.log(error.message);
+            }
+
+        }
+        security(2503);
+    </script>
+    
+</body>
+</html>

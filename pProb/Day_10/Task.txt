@@ -1,0 +1,23 @@
+1. What is the purpose of the `useEffect` hook in React?
+2. How do you import and use the `useEffect` hook in a functional component?
+3. What is the dependency array in `useEffect`? When should you provide dependencies, and when should you leave it empty?
+4. What is the equivalent of `componentDidMount` in class components when using the `useEffect` hook?
+5. How do you handle cleanup tasks in `useEffect`? What is the purpose of the cleanup function?
+6. Can you have multiple `useEffect` hooks in a single component? How does the order of execution work in such cases?
+7. What happens if you don't specify any dependencies in the dependency array?
+8. How do you conditionally run effects in `useEffect`? How can you control when an effect should run?
+9. How can you unsubscribe or clean up event listeners within `useEffect`?
+10. Can you return a function from `useEffect`? What is its purpose?
+
+# Problems :
+
+1. **Fetching Data:** Create a component that fetches data from an API using `useEffect` and logs the result to the console.
+2. **Updating Document Title:** Implement a component that updates the document title based on a state value using `useEffect`.
+3. **Debouncing Search Input:** Create a search component that triggers an API request after the user has stopped typing for a certain duration. Use `useEffect` to set up the debounce behavior.
+4. **Subscribing to Event Listeners:** Implement a component that subscribes to a browser event (e.g., `resize` or `scroll`) using `useEffect`. Log a message whenever the event is triggered.
+5. **Clean Up Effect:** Create a component that sets up a timer using `setInterval` in `useEffect`. Clean up the timer using the cleanup function to avoid memory leaks.
+6. **Conditional Effect:** Implement a component that performs an action only when a specific condition is met. Use `useEffect` with a dependency array to control when the effect should run.
+7. **Dependency Change Effect:** Create a component that triggers an effect whenever a specific state variable changes. Use the dependency array in `useEffect` to track the variable.
+8. **Local Storage Sync:** Build a component that syncs a state variable with the browser's local storage. Use `useEffect` to update the local storage value whenever the state variable changes, and retrieve the value on component mount.
+9. **Scroll to Top:** Implement a component that scrolls the page to the top when it mounts. Use `useEffect` with an empty dependency array to run the effect only once.
+10. **Cleanup on Component Unmount:** Create a component that subscribes to a real-time data source (e.g., WebSocket) using `useEffect`. Remember to clean up the subscription when the component unmounts.

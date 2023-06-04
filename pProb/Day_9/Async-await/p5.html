@@ -1,0 +1,30 @@
+<!--  ** Timeout with Promises:** Implement a function that returns a promise and resolves after a specified timeout.Use `async/await` to pause execution until the promise resolves. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer inside resolve in Promise</title>
+</head>
+
+<body>
+    <script>
+        const myPromise = new Promise((res, rej) => {
+            setTimeout(() => {
+               console.log('Mujhe 3sec rokne k baad promise ne bheja h')
+            },3000)
+        })
+        
+        async function fnc(){
+            console.log('Async function m hm sabese upar h')
+            console.log('Agle 3 sec m promise ko bhejna h wo bhejega')
+            return await myPromise;
+        }
+        fnc();
+    </script>
+</body>
+
+</html>

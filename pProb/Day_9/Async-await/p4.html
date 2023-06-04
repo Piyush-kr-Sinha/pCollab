@@ -1,0 +1,49 @@
+<!-- ** Parallel Requests:** Write an `async` function that makes multiple API requests in parallel using `Promise.all()` and`await`.Log the combined responses when all requests have completed. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Request </title>
+</head>
+
+<body>
+    <script>
+        async function reqAll(urls) {
+            try {
+                const myPromise = urls.map(async (url) => {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    return data;
+                });
+
+                const result = await Promise.all(myPromise);
+                // if you want to get combined result 
+                console.log('Combined Responses:', result);
+                // number of result
+                result.map((items) => {
+                    console.log('Fetched data from new url')
+                    items.map((item) => {
+                        console.log(item);
+                    })
+                })
+                return result;
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        const urls = [
+            "https://jsonplaceholder.typicode.com/users",
+            "https://jsonplaceholder.typicode.com/users"
+        ];
+
+        reqAll(urls);
+    </script>
+</body>
+
+</html>
